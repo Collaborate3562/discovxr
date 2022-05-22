@@ -1,0 +1,33 @@
+.v-btn {
+  white-space: inherit;
+}
+
+::v-deep {
+  .v-tabs-bar,
+  .v-tab {
+    height: auto !important;
+  }
+  .v-tabs-slider-wrapper {
+    top: 0;
+  }
+  @media screen and (max-width: 600px) {
+    .v-slide-group {
+      &__prev,
+      &__next {
+        display: none !important;
+      }
+    }
+    .v-tabs-bar__content {
+      flex: inherit;
+    }
+    .v-tab {
+      max-width: 50% !important;
+      min-width: auto;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .v-tab {
+      max-width: 50% !important;
+    }
+  }
+}

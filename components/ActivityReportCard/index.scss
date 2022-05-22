@@ -1,0 +1,10 @@
+@import '~/assets/scss/line-clamp.scss';
+
+.line-clamp {
+  &__title {
+    @include line-clamp(2);
+  }
+  &__report {
+    @include line-clamp(5);
+  }
+}

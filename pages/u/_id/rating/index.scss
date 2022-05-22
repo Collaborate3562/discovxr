@@ -1,0 +1,28 @@
+@import '~/assets/scss/line-clamp.scss';
+
+.title-line-clamp {
+  @include line-clamp(2);
+}
+
+.display-grid {
+  display: grid;
+  grid-template-columns: 66px 1fr;
+
+  @media screen and (max-width: 599.9px) {
+    div:last-child {
+      grid-column: 1 / 3;
+    }
+  }
+}
+
+::v-deep {
+  textarea::placeholder {
+    line-height: 1.5;
+  }
+
+  .v-radio {
+    .v-input--selection-controls__input {
+      margin-right: 0 !important;
+    }
+  }
+}

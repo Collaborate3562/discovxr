@@ -1,0 +1,26 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="100%"
+  height="100%"
+  viewBox="0 0 32 32"
+>
+  <defs>
+    <linearGradient id="linear-gradient-youtube" y1="1" x2="1" y2="0.086" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe0944" />
+      <stop offset="1" stop-color="#feae96" />
+    </linearGradient>
+  </defs>
+  <g id="Youtube_icon" data-name="youtube-icon" transform="translate(-0.123)">
+    <circle
+      id="Ellipse_82"
+      data-name="Ellipse 82"
+      cx="16"
+      cy="16"
+      r="16"
+      transform="translate(0.123)"
+      fill="url(#linear-gradient-youtube)"
+    />
+    <path id="Icon_ionic-logo-youtube" data-name="icon-ionic-logo-youtube" d="M14.9,6.985a2.278,2.278,0,0,0-2.168-2.379C11.111,4.529,9.455,4.5,7.764,4.5H7.237c-1.688,0-3.346.029-4.969.105A2.283,2.283,0,0,0,.1,6.991C.029,8.034,0,9.077,0,10.12s.029,2.086.1,3.132A2.285,2.285,0,0,0,2.265,15.64c1.705.079,3.455.114,5.233.111s3.525-.029,5.233-.111A2.286,2.286,0,0,0,14.9,13.252c.07-1.046.1-2.089.1-3.135S14.973,8.031,14.9,6.985Zm-8.837,6.01V7.237l4.249,2.877Z" transform="translate(9.123 5.499)" fill="#fff" />
+  </g>
+</svg>

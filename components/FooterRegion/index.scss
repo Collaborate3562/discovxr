@@ -1,0 +1,12 @@
+::v-deep {
+  fieldset {
+    border-color: grey;
+    border-radius: 0;
+  }
+  .v-select__slot {
+    .v-select__selections,
+    i {
+      color: grey;
+    }
+  }
+}

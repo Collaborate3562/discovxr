@@ -1,0 +1,24 @@
+@import '~/assets/scss/line-clamp.scss';
+@import '~/assets/scss/transform.mixin.scss';
+
+.title-line-clamp {
+  @include line-clamp(2);
+  line-height: 1.2;
+}
+
+.sold-flag {
+  transition: transform 0.5s;
+  @include _transform(rotate(-45deg) translateY(-200%));
+
+  &.active {
+    @include _transform(rotate(-45deg) translateY(-90%));
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .sold-flag {
+    &.active {
+      @include _transform(rotate(-45deg) translateY(-80%));
+    }
+  }
+}

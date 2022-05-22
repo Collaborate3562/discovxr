@@ -1,0 +1,24 @@
+::v-deep {
+  @media screen and (min-width: 600px) {
+    .overflow-y-auto::-webkit-scrollbar {
+      width: 5px;
+    }
+    .overflow-y-auto::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      box-shadow: inset 0 0 5px 0px #c7cec7;
+      visibility: hidden;
+    }
+    .overflow-y-auto::-webkit-scrollbar-thumb {
+      border-radius: 20px;
+      box-shadow: inset 0 0 2px 2px #a0a9a0;
+      visibility: hidden;
+    }
+  }
+}
+.overflow-y-auto:hover {
+  cursor: default;
+  &::-webkit-scrollbar-track,
+  &::-webkit-scrollbar-thumb {
+    visibility: visible;
+  }
+}

@@ -1,0 +1,5 @@
+@import '~/assets/scss/line-clamp.scss';
+
+.text-line-clamp {
+  @include line-clamp(1);
+}

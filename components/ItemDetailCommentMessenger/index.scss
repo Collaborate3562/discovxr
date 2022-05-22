@@ -1,0 +1,18 @@
+::v-deep {
+  @media screen and (min-width: 600px) {
+    textarea::-webkit-scrollbar,
+    .overflow-y-auto::-webkit-scrollbar {
+      width: 5px;
+    }
+    textarea::-webkit-scrollbar-track,
+    .overflow-y-auto::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      box-shadow: inset 0 0 5px 0px #c7cec7;
+    }
+    textarea::-webkit-scrollbar-thumb,
+    .overflow-y-auto::-webkit-scrollbar-thumb {
+      border-radius: 20px;
+      box-shadow: inset 0 0 2px 2px #a0a9a0;
+    }
+  }
+}

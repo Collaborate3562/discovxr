@@ -1,0 +1,13 @@
+::v-deep {
+  @media screen and (min-width: 600px) {
+    .v-stepper__step {
+      flex-basis: 200px;
+      padding: 14px;
+    }
+    span.v-stepper__step__step {
+      height: 40px;
+      min-width: 40px;
+      width: 40px;
+    }
+  }
+}

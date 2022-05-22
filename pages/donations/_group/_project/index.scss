@@ -1,0 +1,39 @@
+::v-deep {
+  .v-tabs-bar {
+    height: auto;
+  }
+  .v-tabs-slider-wrapper {
+    top: 0;
+  }
+  @media screen and (max-width: 600px) {
+    .v-slide-group {
+      &__prev,
+      &__next {
+        display: none !important;
+      }
+    }
+    .v-tab {
+      max-width: 50% !important;
+      min-width: auto;
+    }
+  }
+  @media screen and (min-width: 600px) {
+    .v-tab {
+      width: 200px !important;
+    }
+    .v-carousel,
+    .v-carousel .v-window__container,
+    .v-carousel .v-image,
+    .v-carousel .v-responsive__sizer {
+      height: 100% !important;
+      padding-bottom: 0 !important;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .carousel-items {
+      grid-template-columns: repeat(7, 1fr);
+      grid-gap: 15px;
+    }
+  }
+}

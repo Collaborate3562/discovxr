@@ -1,0 +1,103 @@
+@import '~/assets/scss/line-clamp.scss';
+
+$flatType: #ff909a;
+$percentageType: #fad678;
+$freeShippingType: #81c096;
+$flatTypeBorder: #f34b46;
+$percentageTypeBorder: #fdb647;
+$freeShippingTypeBorder: #357b3f;
+
+.content {
+  border-left: 7px solid !important;
+  border-right: 3px dashed white !important;
+}
+
+.line-clamb {
+  @include line-clamp(3);
+}
+
+h2:after {
+  content: '';
+  display: block;
+  width: 20%;
+  height: 3px;
+  background-color: black;
+  margin: 4px auto 0;
+}
+
+.coupon-flat {
+  background-color: $flatType;
+
+  h2,
+  h3,
+  p {
+    color: $flatType;
+  }
+
+  .content {
+    border-left-color: $flatTypeBorder !important;
+  }
+
+  h2:after {
+    background-color: $flatType;
+  }
+}
+.coupon-percentage {
+  background-color: $percentageType;
+
+  h2,
+  h3,
+  p {
+    color: $percentageType;
+  }
+
+  .content {
+    border-left-color: $percentageTypeBorder !important;
+  }
+
+  h2:after {
+    background-color: $percentageType;
+  }
+}
+.coupon-free {
+  background-color: $freeShippingType;
+
+  h2,
+  h3,
+  p {
+    color: $freeShippingType;
+  }
+
+  .content {
+    border-left-color: $freeShippingTypeBorder !important;
+  }
+
+  h2:after {
+    background-color: $freeShippingType;
+  }
+}
+
+::v-deep {
+  @media screen and (max-width: 959.9px) {
+    .content {
+      border-left: 3px solid !important;
+      border-right: 2px dashed white !important;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    h2:after {
+      height: 2px;
+      margin: 0 auto;
+    }
+
+    .vertical-text {
+      writing-mode: vertical-lr;
+    }
+
+    .small-text {
+      font-size: 10px;
+      line-height: 1.3;
+    }
+  }
+}

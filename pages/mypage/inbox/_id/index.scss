@@ -1,0 +1,63 @@
+@import '~/assets/scss/line-clamp.scss';
+
+.text-line-clamp {
+  @include line-clamp(1);
+}
+
+.overflow-y-auto {
+  &::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #c2bfbf;
+    border: solid 3px #e6e6e6;
+    border-radius: 7px;
+
+    &:hover {
+      background: #aaa5a5;
+    }
+  }
+}
+
+.mdi-resize::before {
+  transition: transform 0.3s;
+}
+
+.full-size {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+
+  .v-card__actions {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+  }
+}
+
+::v-deep {
+  .v-textarea .v-input__slot {
+    padding: 0 10px;
+  }
+  textarea {
+    margin: 4px;
+    max-height: 170px;
+    overflow-y: auto;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 959.9px) {
+  .overflow-y-auto::-webkit-scrollbar {
+    display: none;
+  }
+}

@@ -1,0 +1,6 @@
+@mixin _transform($args) {
+  transform: $args;
+  -o-transform: $args;
+  -moz-transform: $args;
+  -webkit-transform: $args;
+}

@@ -1,0 +1,16 @@
+@import '~/assets/scss/line-clamp.scss';
+
+.line-clamp {
+  &__text {
+    @include line-clamp(1);
+  }
+  &__message {
+    @include line-clamp(4);
+  }
+}
+
+.deal-type-icon {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+}

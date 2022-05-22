@@ -1,0 +1,15 @@
+::v-deep {
+  input::placeholder {
+    color: grey !important;
+    font-weight: 600 !important;
+  }
+}
+.container-max-width {
+  max-width: 1264px;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+}

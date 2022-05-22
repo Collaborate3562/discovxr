@@ -1,0 +1,24 @@
+.v-btn {
+  white-space: inherit;
+}
+
+::v-deep {
+  .v-tabs-bar,
+  .v-tab {
+    height: auto !important;
+  }
+  .v-tabs-slider-wrapper {
+    top: 0;
+  }
+  @media screen and (max-width: 600px) {
+    .v-slide-group {
+      &__prev,
+      &__next {
+        display: none !important;
+      }
+    }
+    .v-tab {
+      min-width: auto;
+    }
+  }
+}

@@ -1,0 +1,970 @@
+{
+  "META": {
+    "LXGIC": "Lxgic Inc."
+  },
+  "SNACKBAR": {
+    "CLOSE": "close",
+    "NOT_COMPLETED_STEP": "Please complete the previous step",
+    "INVALID_FILE_TYPE": "Selected invalid file type",
+    "NOT_SELECTED": "Please select item(s)"
+  },
+  "USER_TYPE": {
+    "SELLER": "Seller",
+    "BUYER": "Buyer"
+  },
+  "EMOTION": {
+    "GOOD": "Good",
+    "VERY_GOOD": "Very good",
+    "NORMAL": "Normal",
+    "BAD": "Bad",
+    "VERY_BAD": "Very bad"
+  },
+  "FILE_UPLOAD": {
+    "TEXT": [
+      "Drag and drop images inside the box",
+      "or click the box and upload images"
+    ],
+    "BUTTON": {
+      "DELETE": "Delete"
+    }
+  },
+  "DATE_TIME_PICKER": {
+    "CANCEL": "Cancel",
+    "NEXT": "Next",
+    "PREV": "Prev",
+    "OK": "ok"
+  },
+  "LOGOUT": "logout",
+  "LABEL_TYPE": {
+    "REQUIRED": "Required",
+    "OPTIONAL": "Optional"
+  },
+  "HEADER": {
+    "SEARCH_PLACEHOLDER": "What are you looking for?",
+    "AUTH_BUTTON": "Log in | Sign up",
+    "DEALS": {
+      "NAME": "Deal",
+      "ALL": "All",
+      "AUCTIONS": "Auctions",
+      "SHOPPINGS": "Shoppings",
+      "RAFFLES": "Raffles"
+    },
+    "CATEGORIES": "Categories",
+    "BRANDS": "Brands",
+    "INFLUENCERS": "Influencers",
+    "DONATIONS": "Donations",
+    "RANKINGS": {
+      "NAME": "Rankings",
+      "INFLUENCER": "Influencer Rankings",
+      "CONTRIBUTOR": "Contributor Rankings"
+    },
+    "LIKES": "Likes",
+    "NOTIFICATION": "Notification",
+    "MY_PAGE": "My page",
+    "PROFILE_DIALOG": {
+      "SALES": "Sales",
+      "DONATION": "Donation",
+      "BALANCE": "Balance",
+      "POINTS": "Points",
+      "ITEMS": {
+        "NAME": "Items",
+        "SALE": "Items on Sale",
+        "LIKED": "Liked items",
+        "RECENTLY": "Recently viewed items",
+        "SOLD": "Sold items",
+        "CHECK": "Check my items"
+      }
+    }
+  },
+  "AUTH_FOOTER": {
+    "PRIVACY_POLICY": "Privacy policy",
+    "TERMS_CONDITIONS": "Terms & Conditions",
+    "JAPAN": "日本",
+    "JAPANESE": "日本語",
+    "COPYRIGHT": "Lxgic Inc. All Right Reserved."
+  },
+  "FOOTER": {
+    "SHOP": "shop",
+    "COMPANY": "company",
+    "SUPPORT": "support",
+    "TERMS": "terms",
+    "REGION": "region",
+    "COPYRIGHT": "Lxgic Inc. All Rights Reserved.",
+    "LIST": {
+      "INFLUENCERS": "Influencers",
+      "BRANDS": "Brands",
+      "CATEGORIES": "Categories",
+      "ABOUT_US": "About us",
+      "CAREERS": "Careers",
+      "BLOG": "Blog",
+      "TWITTER": "Twitter",
+      "INSTAGRAM": "Instagram",
+      "FACEBOOK": "Facebook",
+      "PARTNERS": "Partners",
+      "HELP_GUIDE": "Help / Guide",
+      "TERMS": "Terms of usage",
+      "PRIVACY_POLICY": "Privacy policy",
+      "LICENCES": "Licenses",
+      "PROHIBITED_ITEMS": "Prohibited Items"
+    }
+  },
+  "LANGUAGES": {
+    "NAME": "Language",
+    "JAPANESE": "日本語",
+    "ENGLISH": "English"
+  },
+  "REGIONS": {
+    "NAME": "Region",
+    "JAPAN": "日本",
+    "USA": "USA"
+  },
+  "LOGIN": {
+    "NO_ACCOUNT": "Don't have an account?",
+    "LOGIN_PREFIX": "Log in with",
+    "FIELD": "Email | Password",
+    "BUTTON": "Log in | Sign up",
+    "BACK": "Back to select",
+    "SNS": {
+      "INSTAGRAM": "Log in with Instagram",
+      "TWITTER": "Log in with Twitter",
+      "YOUTUBE": "Log in with Youtube",
+      "FACEBOOK": "Log in with Facebook",
+      "BLOG": "Log in with Blog",
+      "EMAIL": "Log in with Email"
+    }
+  },
+  "RESET_PASSWORD": {
+    "TITLE": "Completed | Change Password",
+    "SUBTITLE": "In order to protect your account make sure your password: | Your password was successfully changed!",
+    "LIST": [
+      "Is longer than 7 characters.",
+      "Does not match or contain your username."
+    ],
+    "FIELD": "New Password | Re-enter Your New Password",
+    "BUTTON": "Change password | Login"
+  },
+  "SIGNUP": {
+    "BUTTON": "Log in | Next",
+    "REGISTRATION_METHOD": {
+      "LABEL": "Select registration method",
+      "TITLE": "Registration",
+      "SUBTITLE": [
+        "Please register to begin shopping on BIDDO",
+        "※Only authorized accounts will be able to post items"
+      ],
+      "SNS": {
+        "INSTAGRAM": "Register with Instagram",
+        "TWITTER": "Register with Twitter",
+        "YOUTUBE": "Register with Youtube",
+        "FACEBOOK": "Register with Facebook",
+        "BLOG": "Register with Blog",
+        "EMAIL": "Register with Email"
+      }
+    },
+    "REGISTRATION": {
+      "LABEL": "Registration",
+      "TITLE": "Account Settings",
+      "FIELD": {
+        "USERNAME": "Username",
+        "EMAIL": "Email",
+        "PASSWORD": "Password | Confirm password",
+        "BLOG": "Blog URL | Average monthly views on blog | Proof of your average monthly views on the blog",
+        "IDENTIFICATION": "Identification | As part of the authentication process please fill in the information below as it is written in your government issued ID. This information will not be shared with other users.",
+        "NAME": "Name | Name (Kanji) | Name (Katakana)",
+        "BIRTHDAY": "Birthday"
+      },
+      "VALIDATION_NOTICE": "※Please fill in the information above correctly. Any editing after registration may require time.",
+      "AGREE": "By clicking on the “Next” button you agree to BIDDO’s terms & conditions"
+    },
+    "PHONE_VERIFICATION": {
+      "LABEL": "Phone Verification",
+      "TITLE": "Phone Verification",
+      "FIELD": "Phone number | Verification Code",
+      "DESCRIPTION": "A verification code has been sent to your phone number through SMS. Please enter the code and click on “Next”.",
+      "RESEND_VERIFICATION_CODE": "Resend the verification code",
+      "INFORMATION": "※This step is required to prevent unauthorized and malicious use. Your information will not be shared with other users."
+    },
+    "COMPLETED": {
+      "LABEL": "Completed",
+      "TITLE": "Completed",
+      "SUBTITLE": [
+        "Your account registration has been completed.",
+        "Please enjoy shopping and selling on BIDDO."
+      ]
+    }
+  },
+  "SIDEBAR": {
+    "TITLES": {
+      "DEALS": "Deals",
+      "PAYMENT": "Payment",
+      "SETTINGS": "Settings",
+      "OTHER": "Help・Others"
+    },
+    "PROFILE": "My page",
+    "EDIT_PROFILE": "Edit profile info",
+    "NOTIFICATION": "Notification",
+    "LIKED_ITEMS": "Liked items",
+    "COMMENTED_ITEMS": "Commented items",
+    "RECENTLY_VIEWED": "Recently viewed items",
+    "PURCHASED_ITEMS": "Purchased items",
+    "MESSAGES": "Messages",
+    "CREATE_DEALS_SELL": "Create deals (sell)",
+    "DRAFT_ITEMS": "Items saved as draft",
+    "SOLD_ITEMS": "Sold items",
+    "CHECK_ITEMS": "Check my items",
+    "BALANCE": "Balance Transfer request",
+    "POINTS": "Points",
+    "COUPONS": "Coupons",
+    "SHIPMENT": "Shipment / Delivery address",
+    "PAYMENT_METHOD": "Payment method",
+    "LOGIN_SETTINGS": "Login / Password settings",
+    "PERSONAL_IDENTIFICATION": "Personal identification",
+    "PHONE_VERIFY": "Phone number verification",
+    "CONTACT_US": "Contact us",
+    "GUIDE": "Guide",
+    "BEGINNERS": "For beginners",
+    "LOGOUT": "Logout"
+  },
+  "SEARCH": {
+    "TITLE": "Search filter",
+    "RESULT_TITLE": "Result of",
+    "SHOWING": "Showing",
+    "CHECKBOX": "Selling now only",
+    "LATEST": "Latest",
+    "LABEL": {
+      "KEYWORD": "Search keyword",
+      "CATEGORY": "Select Category",
+      "BRAND": "Search Brand",
+      "DEAL_TYPE": "Select Deal Type",
+      "PRICE": "Price | start | end",
+      "ITEM_CONDITION": "Item Condition",
+      "ITEM_STATUS": "Item Status",
+      "SHIPPING_COVERED": "Shipping covered by"
+    },
+    "BUTTON": {
+      "CLEAR": "clear",
+      "SEARCH": "search",
+      "SORT": "Sort by",
+      "FILTER": "Search filter"
+    }
+  },
+  "HOME": {
+    "TRENDING_ITEMS": "Trending items",
+    "EDITORS_PICK": "Editor's Pick",
+    "LADIES_ITEM": "Ladies Item",
+    "MANS_ITEM": "Mans Item",
+    "POPULAR_INFLUENCERS": "Popular Influencers",
+    "POPULAR_CATEGORIES": "Popular Categories",
+    "BUTTON": {
+      "MORE": "View more",
+      "INFLUENCERS": "View all influencers",
+      "CATEGORIES": "View all categories",
+      "POST": "POST"
+    },
+    "CANNOT_MODAL": {
+      "BUTTON": "close",
+      "TITLE": "You cannot post any items until your account is authorized",
+      "SUBTITLE": "The following requirements need to be met",
+      "SNS_CRITERIA": "Your linked social account needs to meet the following criteria",
+      "INSTAGRAM": "Instagram account: {count}K + followers",
+      "TWITTER": "Twitter account: {count}K + followers",
+      "FACEBOOK": "Facebook: {count}K + followers",
+      "YOUTUBE": "Youtube: {count}K + followers",
+      "BLOG": "Blog: Over 10,000PV per month",
+      "FOOTER_TEXT": [
+        "When the criteria in \"",
+        "\" is met, BIDDO will review your account.",
+        "If BIDDO authorizes your account, you will be able to post items.",
+        "※Please check the Q&A section for details on posting authorization."
+      ]
+    }
+  },
+  "DEAL_CARD": {
+    "AUCTION": {
+      "NOW": "Now",
+      "BIDS": "Bids",
+      "LEFT": "Left"
+    },
+    "SHOPPING": {
+      "PRICE": "Price",
+      "QUANTITY": "Quantity",
+      "DONATION": "Donation"
+    },
+    "RAFFLE": {
+      "ENTRY": "Entry",
+      "PRIZE": "Prize",
+      "LEFT": "Left"
+    }
+  },
+  "CATEGORY": {
+    "TITLE": "Category List | Popular Categories",
+    "ALL": "All"
+  },
+  "BRAND": {
+    "TITLE": "Brand List | Popular Categories",
+    "OTHERS": "others"
+  },
+  "ACCOUNT_SETTINGS": {
+    "TITLE": "Login / Password settings",
+    "FORGOT": "Forgot password?",
+    "EMAIL": "Email",
+    "PASSWORD": "Current Password | New Password | Confirm Password",
+    "CURRENT": "Current Password",
+    "BUTTON": {
+      "SEND": "send",
+      "SAVE": "Save Changes"
+    },
+    "RESET": {
+      "TITLE": "Reset password",
+      "SUBTITLE": "We will send you a link to reset your password on your email below."
+    }
+  },
+  "COUPONS": {
+    "TITLE": "Coupons",
+    "OFF": "off",
+    "FREE": "free shipping",
+    "BUTTON": "View more"
+  },
+  "CONTACT_US": {
+    "TITLE": "Contact us",
+    "TOPIC": "Topic",
+    "EMAIL": "Email",
+    "ORDER_ID": "Order ID",
+    "PRODUCT_NAME": "Product Name",
+    "MESSAGE": "Message",
+    "ADDRESS": "Address",
+    "PATTERN": {
+      "REFUND": "About refund",
+      "PERSONAL_ID": "Changing personal identification"
+    },
+    "BUTTON": "Save Changes"
+  },
+  "PAYMENT_METHOD": {
+    "TITLE": "Payment Method (Add Credit Card)",
+    "CARD_NUMBER": "Card Number",
+    "CARD_NAME": "Name on Card",
+    "EXPIRATION_DATE": "Expiration Date",
+    "SECURITY_CODE": "Security Code",
+    "BUTTON": "Save Changes"
+  },
+  "SHIPMENT_DELIVERY": {
+    "TITLE": "Shipment / Delivery Address",
+    "NAME_FIELDS": "First Name | Family Name",
+    "NAME_NAKJI_KATAKANA": "Name (Kanji) | Name (Katakana)",
+    "POST_CODE": "Post code",
+    "PREFECTURE": "Prefecture",
+    "CITY": "City / Ward",
+    "STREET": "Street",
+    "BUILDING": "Building",
+    "PHONE": "Phone Number",
+    "BUTTON": "Save Changes"
+  },
+  "RECENTLY_VIEWED_ITEMS": {
+    "TITLE": "Recently Viewed Items",
+    "BUTTON": "View more"
+  },
+  "LIKED_ITEMS": {
+    "TITLE": "Liked Items",
+    "BUTTON": "View more"
+  },
+  "COMMENTED_ITEMS": {
+    "TITLE": "Commented Items",
+    "BUTTON": "View more"
+  },
+  "NOTIFICATION": {
+    "TABS": "From discovxr | Deals Related",
+    "BUTTON": "View more"
+  },
+  "POINTS": {
+    "TITLE": "About points | Points history",
+    "LIST": {
+      "ABOUT": "About points",
+      "HISTORY": "Points history"
+    },
+    "AVAILABLE": "Available Points",
+    "SUFFIX": "points",
+    "BUTTON": "View more"
+  },
+  "GUIDE": {
+    "BEGINNERS": {
+      "TITLE": "For beginners"
+    },
+    "FAQ": {
+      "TITLE": "Search from FAQ"
+    },
+    "CATEGORY": {
+      "TITLE": "Search from category"
+    }
+  },
+  "BEGINNERS": {
+    "TITLE": "Beginners Guide",
+    "GUIDE": [
+      "We explain what is required for purchasing on auction or to put up items on auction. Each steps are really simple, so if you have any troubles, we hope you could find the answer below.",
+      "Every transactions will be monitored by support team of discovxr, so it is safe to use the service.",
+      "We hope everyone can enjoy the service and make shopping more fun and meaningful."
+    ],
+    "TABS": "How to start deals | How to purchase items",
+    "BUTTON": "Check discovxr's guide page for more information"
+  },
+  "PERSONAL_IDENTIFICATION": {
+    "IDENTIFICATION": {
+      "TITLE": "Personal identification",
+      "VERIFIED": "Your personal identification is verified already",
+      "DESCRIPTION": [
+        "We need to verify your identity for certain actions on discovxr such as selling or buying items more than ¥50,001.",
+        "Please submit your personal identification from below form which is identical to your registered information."
+      ],
+      "USERNAME": "Name | Name (Kana)",
+      "BIRTHDAY": "Birthday"
+    },
+    "ADDRESS": {
+      "TITLE": "Please add your address",
+      "POSTCODE": "Post code",
+      "PREFECTURE": "Prefecture",
+      "CITY_WARD": "City / Ward",
+      "STREET": "Street",
+      "BUILDING": "Building"
+    },
+    "DOCUMENT": {
+      "TITLE": "Please add your address",
+      "SELECT_LABEL": "Select your personal identification to submit",
+      "REQUIRED_UPLOAD": "Required to upload both front side and back side of the card",
+      "PASSPORT": "Passport",
+      "DRIVING_LISENCE": "Driving lisence",
+      "DESCRIPTION": [
+        "Please check your driving license is valid and your personal information matches the info added on discovxr.",
+        "*Photo needs to be taken clear."
+      ],
+      "SIDE": "Front side | Back side"
+    },
+    "HELP": {
+      "TITLE": "Help",
+      "PERSONAL_INFORMATION": "What is personal information validation?",
+      "SUBMIT": "What is personal information validation?",
+      "REVIEW": "How long does it take for the review?",
+      "VERIFICATION": "Is the verification only one time process? Or this needs to be done multiple times?"
+    },
+    "BUTTON": "Submit"
+  },
+  "PROFILE": {
+    "TOOLTIP": "This is the average of the reviews you received from your buyers. This can only be seen by you. However if the average falls below 3.0 you may be restricted from posting new items.",
+    "DEALS": "Deals",
+    "DONATIONS": "Donations",
+    "FOLLOWINGS": "Followings",
+    "FOLLOWERS": "Followers",
+    "BUTTON": "View more",
+    "NOTIFICATION": "Notification",
+    "VIEWED_ITEMS": "Recently Viewed Items"
+  },
+  "EDIT_PROFILE": {
+    "TITLE": "Edit My Profile | My SNS Accounts | Introduction",
+    "BUTTON": {
+      "UPLOAD": "Upload Image",
+      "DELETE": "Delete",
+      "SAVE": "Save changes",
+      "INSTAGRAM": "Register with Instagram",
+      "TWITTER": "Register with Twitter",
+      "YOUTUBE": "Register with Youtube",
+      "FACEBOOK": "Register with Facebook"
+    },
+    "GENDER_OPTIONS": {
+      "MALE": "Male",
+      "FEMALE": "Female",
+      "UNKNOW": "Rather not to say"
+    },
+    "USERNAME": "Username",
+    "GENDER": "Gender",
+    "GEOGRAPHY": "Country | State | City",
+    "BIRTHDAY": "Birthday",
+    "DASHBOARD": "Dashboard Country | Dashboard Language",
+    "GEOGRAPHY_SELECT": "Select Country | Select State | Select City",
+    "CONNECTION": "Connected | Not Connected",
+    "BLOG": "HP・BLOG URL",
+    "INSTAGRAM": "Instagram",
+    "TWITTER": "Twitter",
+    "YOUTUBE": "Youtube",
+    "FACEBOOK": "Facebook"
+  },
+  "SALES": {
+    "TITLE": "Balance and History | Request Transfer",
+    "BALANCE": "Current balance",
+    "BALANCE_HISTORY": "Balance history",
+    "SALES": "Sales history",
+    "REQUEST_HISTORY": "Transfer history",
+    "SCHEDULE": "Transfer schedule",
+    "CURRENT": "Request transfer from current balance"
+  },
+  "INBOX": {
+    "TITLE": "Message",
+    "MAKE_PAYMENT": "Make payment",
+    "WAITING_SHIPMENT": "Waiting shipment",
+    "REPORT_RECEIVED": "Report Item received",
+    "REVIEW": "Review",
+    "COMPLETE": "Complete"
+  },
+  "DRAFT_ITEMS": {
+    "TITLE": "Draft items",
+    "ACTIONS": {
+      "NAME": "actions"
+    },
+    "BUTTON": "Check Drafts"
+  },
+  "CHECK_ITEMS": {
+    "TITLE": "My Items",
+    "BUTTON": {
+      "DRAFTS": "Drafts",
+      "ON_DEAL": "On Deal",
+      "SOLD": "Sold"
+    },
+    "ACTIONS": {
+      "NAME": "actions",
+      "BIDDERS": "Check Bidders"
+    }
+  },
+  "PURCHASED_ITEMS": {
+    "TABS": "On Deal | Comments | Purchased",
+    "BUTTON": {
+      "CHECK": "check seller",
+      "SEND_MESSAGE": "Send message",
+      "SEND_ITEM": "Send Item",
+      "WAITING_SHIPMENT": "Waiting shipment",
+      "MAKE_PAYMENT": "Make payment",
+      "REPORT_RECEIVED": "Report Item received",
+      "REVIEW": "Review",
+      "COMPLETE": "Complete",
+      "REPLATION": "replied | reply now"
+    }
+  },
+  "SOLD_ITEMS": {
+    "TABS": "On Deal | Comments | Sold",
+    "BUTTON": {
+      "CHECK": "check bidders | check buyers",
+      "SEND_MESSAGE": "Send message",
+      "SEND_ITEM": "Send Item",
+      "WAITING_PAYMENT": "Waiting payment",
+      "REVIEW": "Review",
+      "COMPLETE": "Complete",
+      "REPLATION": "replied | reply now",
+      "CLOSE": "close"
+    }
+  },
+  "BIDDERS": {
+    "TABS": "Bidders History | Bidders",
+    "TOTAL": "Total",
+    "ACTIONS": {
+      "NAME": "actions"
+    },
+    "REJECT": "Reject",
+    "MODAL": {
+      "TITLE": "Do you really want to reject this buyer?",
+      "SUBTITLE": [
+        "This action cannot be reverted.",
+        "If you find any malicious activity, please report to the BIDDO support team."
+      ],
+      "BUTTON": "reject | cancel"
+    }
+  },
+  "BUYERS": {
+    "TABS": "Buyers",
+    "TOTAL": "Total",
+    "ACTIONS": {
+      "NAME": "actions"
+    }
+  },
+  "USER_DETAIL": {
+    "REVIEWS": "Reviews",
+    "ITEMS": "Deal items",
+    "SOLD": "sold",
+    "DEALS": "Deals",
+    "DONATIONS": "Donations",
+    "FOLLOWINGS": "Followings",
+    "FOLLOWERS": "Followers",
+    "DEALS_PARTICIPATION": "Deals participation",
+    "PURCHASES": "Purchases"
+  },
+  "SELL": {
+    "ASK_LXGIC": "Ask Lxgic",
+    "LABEL": {
+      "ITEM_NAME": "Item Name",
+      "SIZE": "Item Size",
+      "BRAND": "Item Brand",
+      "QUANTITY": "Item Quantity",
+      "SHIPPING_FEE": "Shipping fee",
+      "SENDER": "Sender location",
+      "PRICE": "Starting price | Entry price",
+      "DEAL_DATE": "Deal start date | Deal end date",
+      "PURPOSE_OF_DONATION": "Why donate & What is donation used for",
+      "WINNERS": "Number of winners",
+      "RUFFLE_PRIZE": "Ruffle prize",
+      "SHIPPING_PLAN": "Shipping plan",
+      "DONATED_BY": "Donated by",
+      "DEAL_PERIOD": "Deal period (Days / Hours)",
+      "CALCULATION": "Select Item for calculation"
+    },
+    "HEADER_DESCRIPTION": [
+      "If you would like Lxgic to post and ship the items on your behalf,",
+      "please click on the “Ask Lxgic” button. For a 50% fee on sales, Lxgic will",
+      "post and ship the items to your customers on your behalf."
+    ],
+    "FOOTER_DESCRIPTION": [
+      "Listing must be a legal item owned by the seller and may not violate the BIDDO policies.",
+      "If BIDDO determines that a listing is in violation or is otherwise inappropriate, BIDDO has the right to remove the listing and cancel any related transactions up to and including termination or suspension."
+    ],
+    "BUTTON": {
+      "DRAFT": "Save as Draft",
+      "AUCTION": "Confirm Deal Details",
+      "SHOPPING": "Confirm Shopping Details",
+      "RAFFLE": "Confirm Raffle Details",
+      "USE_TEMPLATE": "Use Template"
+    },
+    "DEAL_TYPE": {
+      "LABEL": "Deal Type",
+      "SHOPPING": "Shopping",
+      "AUCTION": "Auction",
+      "RAFFLE": "Raffle"
+    },
+    "IMAGE": {
+      "LABEL": "Item Images",
+      "CONDITION": "Upload images (max. 10 images)"
+    },
+    "DESCRIPTION": {
+      "LABEL": "Item Description | Prize detail",
+      "TITLE": "Edit Template | Template",
+      "FIELD": {
+        "NAME": "Template Name",
+        "MESSAGE": "Template Message"
+      },
+      "BUTTON": {
+        "SAVE": "Save template",
+        "DELETE": "Delete template",
+        "EDIT": "Edit template",
+        "CREATE": "create new template",
+        "SHOW": "Show full message"
+      }
+    },
+    "CATEGORY": {
+      "LABEL": "Item Category",
+      "SEARCH": "Search",
+      "SELECT": "Select"
+    },
+    "CONDITION": {
+      "LABEL": "Item Condition",
+      "BRAND_NEW": "Brand-new",
+      "ALMOST_NEW": "Used but almost new",
+      "GREAT_CONDITION": "Used but great condition",
+      "GOOD_CONDITION": "Used but in good condition",
+      "ACCEPTABLE_CONDITION": "Used and is in acceptable condition",
+      "BAD_CONDITION": "Used and is in bad condition"
+    },
+    "SHIPPING_COVERED": {
+      "LABEL": "Shipping covered by",
+      "BUYER": "Covered by Buyer",
+      "SELLER": "Covered by Seller",
+      "SELLER_SHIPPING": "The shipping fee for this item will be covered by the seller"
+    },
+    "DAYS_SEND": {
+      "LABEL": "Days to send item",
+      "DAYS_1_2": "1-2 days",
+      "DAYS_2_3": "2-3 days",
+      "DAYS_4_7": "4-7 days",
+      "HINT": "Best chance purchase(if item sent earlier)"
+    },
+    "DONATION_SETTINGS": {
+      "LABEL": "Donation settings",
+      "MAKE": "Make a donation",
+      "NO": "No donation"
+    },
+    "DONATE_TO": {
+      "LABEL": "Donate to",
+      "HINT": "Donate to: https://linktodonatepage"
+    },
+    "DONATION_RATE": {
+      "LABEL": "Donation rate",
+      "DONATE": "Donate"
+    },
+    "PRIVATE_SETTINGS": {
+      "LABEL": "Private Settings",
+      "PUBLIC": "Public",
+      "PRIVATE": "Private",
+      "HINT": "Select \"Public\" for best chance of higher bids"
+    },
+    "COMMENT_SETTINGS": {
+      "LABEL": "Comment Settings",
+      "ALLOW": "Allow comments",
+      "DENY": "Deny comments"
+    },
+    "STATISTIC": {
+      "DONATION": "Donation",
+      "SHIPPING_FEE": "Shipping fee",
+      "SYSTEM_FEE": "System fee",
+      "REVENUE": "Revenue"
+    },
+    "SHIPPING_METHOD": {
+      "LABEL": "Shipping method",
+      "TITLE": "Choose Shipping Method",
+      "BUTTON": {
+        "SELECT": "Select",
+        "CANCEL": "cancel",
+        "CLOSE": "close",
+        "GO_BACK": "go back"
+      },
+      "COMPANY": "Shipping Company",
+      "MAX_SIZE_WEIGHT": "Max Size | Max Weight",
+      "PRICE": "Price",
+      "DETAIL": "Shipping Detail",
+      "DETAIL_URL": "Detail URL",
+      "DEFAULT": "N/A as the deal is for intangible project"
+    },
+    "VARIANTS": {
+      "LABEL": "Variants",
+      "ADD_OPTION": "Add Another Option",
+      "TITLE": {
+        "NAME": "Name",
+        "PRICE": "Price",
+        "QUANTITY": "Quantity",
+        "COLOR": "Color",
+        "SIZE": "Size",
+        "MATERIAL": "Material",
+        "WEIGHT": "Weight"
+      },
+      "BUTTON": {
+        "EDIT": "Edit Options",
+        "DELETE": "Delete",
+        "ADD_VARIANT": "Add another variant"
+      }
+    }
+  },
+  "USER_RATING": {
+    "TITLE": "Rating",
+    "ALERT": {
+      "TITLE": "Please review your seller",
+      "SUBTITLE": "Your item has been sent. Once you receive your item, please confirm it and send the seller a review."
+    },
+    "CONFIRM_LABEL": "I have confirmed my item",
+    "BUTTON": "Send review",
+    "PLACEHOLDER": "Please leave your comments here (non mandatory).\nA generous comment may make the day of the seller.\n※ Please do not write your personal information here.",
+    "ITEM_DESCRIPTION": "Item Description",
+    "PRICE": "Item price",
+    "COUPONS": "Coupons",
+    "POINT_USAGE": "Point usage",
+    "DELIVERY_COSTS": "Delivery costs",
+    "DATE": "Starting date | End date",
+    "NONE": "None",
+    "BY_CUSTOMER": "Included (paid by the customer)"
+  },
+  "USER_FANS": {
+    "TABS": "Followings | Followers",
+    "DEALS": "Deals",
+    "DONATIONS": "Donations",
+    "FOLLOWINGS": "Followings",
+    "FOLLOWERS": "Followers",
+    "BUTTON": {
+      "FOLLOWING": "Following",
+      "FOLLOW": "Follow"
+    }
+  },
+  "DEALS": {
+    "ALL": "Items (All Deal)",
+    "AUCTION": "Items (Auction Deal)",
+    "SHOPPING": "Items (Shopping Deal)",
+    "RAFFLE": "Items (Raffle Deal)",
+    "FILTER": {
+      "KEYWORD": "Search Keyword",
+      "DEAL_TYPE": "Deal Type",
+      "CATEGORY": "Category",
+      "BRAND": "Brand",
+      "ITEM_CONDITION": "Item Condition",
+      "COVERED_BY": "Shipping Covered By",
+      "FOLLOWERS": "Number of followers",
+      "PRICE": "Price",
+      "DONATIONS": "Donations"
+    },
+    "BUTTON": {
+      "SHOW_MORE": "Show more search options",
+      "CLOSE": "Close search options",
+      "SEARCH": "Search"
+    }
+  },
+  "INFLUENCERS": {
+    "TITLE": "Influencers",
+    "POSITION": "Position",
+    "ITEMS_SOLD": "Items Sold",
+    "DONATION_AMOUNT": "Donation Amount",
+    "BUTTON": {
+      "CANCEL": "cancel",
+      "SEARCH": "search",
+      "SEARCH_FILTER": "search filter"
+    },
+    "FILTER": {
+      "PLACEHOLDER": "Search with keyword",
+      "SNS": "SNS",
+      "COUNTRY": "Country",
+      "STATUS": "Deal Status",
+      "CATEGORY": "Category",
+      "GENDER": "Gender | Male | Female",
+      "RANGE_SLIDER": "Number of followers | Items | Donations"
+    }
+  },
+  "RANKINGS": {
+    "TITLE": {
+      "SUMMARY": "summary",
+      "RANKING": "Influencer Rankings | Influencer Ranking",
+      "CONTRIBUTOR": "Contributor Rankings | Contributor Ranking"
+    },
+    "TOTAL": {
+      "DEALS": "Total deals",
+      "DONATION": "Total donation",
+      "AUCTIONS": "Total auctions",
+      "CONTRIBUTION": "Total Contribution"
+    },
+    "NUMBER": "No. Deals | No. Purchase",
+    "DONATION_AMOUNT": "Donation amount",
+    "MOST_SOLD_ITEM_VALUE": "The most valuable item sold",
+    "BUTTON": {
+      "MORE": "View more"
+    }
+  },
+  "ITEM_DETAIL": {
+    "ANONYMOUS": "Anonymous",
+    "TIME_LEFT": "Time Left",
+    "NUMBER_BIDS": "No. Bids",
+    "BIDS_HISTORY": "bids history",
+    "DETAIL": "Detail",
+    "PRICE": "Current Price",
+    "ITEM_PRICE": "Item Price",
+    "DAYS": "{timeLeft} day(s)",
+    "DONATION": "Donation %",
+    "PLEDGED": "Pledged to donate {percent}%",
+    "PROJECT": "Project",
+    "ITEM_SIZE": "item size",
+    "SEND_FROM": "send from",
+    "DAYS_TO_SEND": "days to send item",
+    "FEE": "shipment fee",
+    "PREPAID": "Prepaid by Sender",
+    "SINGLE_ENTRY": "Single Entry",
+    "RULE": "Rule",
+    "DONATE_TO": "Donate to",
+    "VARIANTS": "{count} Variants",
+    "AVAILABLE_ITEMS": "Available Items",
+    "COLOR": "color",
+    "SIZE": "size",
+    "COMMENT_ALERT": "Comments must abide our commenting policies. Violation may lead to deleted content, disabled accounts, or other restrictions.",
+    "SUBTITLE": {
+      "OTHER_FROM": "Other Items from {name}",
+      "RECOMMENDED": "Other Recommended Items",
+      "DESCRIPTION": "item description",
+      "PRIZE_DETAIL": "Prize detail",
+      "WHY_DONATE": "WHY DONATE & WHAT IS DONATION USED FOR",
+      "RULES": "Rules"
+    },
+    "BUTTON": {
+      "MORE_FROM": "View more from {name}",
+      "MORE_RECOMMENDED": "View more from recommended items",
+      "BID_NOW": "Bid Now",
+      "BUY_NOW": "Buy Now",
+      "DRAW_RAFFLE": "Draw Raffle",
+      "FOLLOW": "Follow",
+      "SEND_COMMENT": "send comment",
+      "REPLY": "reply",
+      "REPORT": "report"
+    },
+    "SHARE": {
+      "LABEL": "Share and get points",
+      "LINE": "Line",
+      "TWITTER": "Twitter"
+    },
+    "REMAINING_MODAL": {
+      "TITLE": "remaining time",
+      "LABEL": "remaining time:",
+      "ALERT": [
+        "The remaining time may defer depending on your network connection.",
+        "To be safe please try to avoid bidding at the last second."
+      ],
+      "BUTTON": "close"
+    },
+    "BID_MODAL": {
+      "TITLE": "Bid Confirmation | Bid",
+      "PRICE": "Bid Price",
+      "AMOUNT": "Bid amount",
+      "QUANTITY": "Quantity | Item Quantity",
+      "DELIVERY": "Delivery costs",
+      "TOTAL": "Total price if successfully purchased | Total amount if the bid succeeds",
+      "BUTTON": {
+        "CONFIRM": "Confirm",
+        "CLOSE": "Close",
+        "BACK": "Back",
+        "BID": "Bid"
+      },
+      "DESCRIPTION": [
+        "※If your payment method is set to using a credit card, the total amount listed above will be charged (bid price + delivery costs) after a successful purchase.",
+        "※If your payment method is set to using bank transfer, please transfer the fee within 48hours after a successful purchase. If not, you will lose your purchase rights.",
+        "※We may restrict bidding for users who continuously omit payments after successful purchases."
+      ]
+    },
+    "SHOPPING_MODAL": {
+      "TITLE": "Shopping",
+      "COLOR": "Color",
+      "SIZE": "Size",
+      "QUANTITY": "Quantity",
+      "BUTTON": {
+        "ADD": "Add to Cart",
+        "VIEW": "View Cart",
+        "BACK": "Back",
+        "CLOSE": "Close",
+        "REMOVE": "Remove",
+        "BUY": "Buy Now"
+      }
+    },
+    "RAFFLE_MODAL": {
+      "TITLE": "Raffle Confirmation | Raffle",
+      "TICKET": "Raffle Ticket | Raffle Ticket Price",
+      "QUANTITY": "Quantity | Item Quantity",
+      "PRICE": "Total Price",
+      "DESCRIPTION": "Make a donation and receive tickets to win the grand prize. The more you donate, the more chances you have to win!",
+      "CONFIRMATION_DESCRIPTION": [
+        "※If your payment method is set to using a credit card, the total amount listed above will be charged after a successful purchase.",
+        "※If your payment method is set to using bank transfer, please transfer the fee within 48hours after a successful purchase. If not, you will lose your purchase rights.",
+        "※We may restrict bidding for users who continuously omit payments after successful purchases."
+      ],
+      "BUTTON": {
+        "CONFIRM": "Confirm",
+        "CLOSE": "Close",
+        "BUY": "Buy",
+        "BACK": "Back"
+      }
+    }
+  },
+  "DONATION": {
+    "TITLE": "Donations",
+    "AMOUNT": "Donation amount",
+    "DONATED_COUNT": "Donated count",
+    "TABS": "Detail | Activity Reports | Projects",
+    "INFLUENCERS": "Influencers",
+    "CONTRIBUTORS": "Contributors",
+    "POPULAR_PROJECTS": "other popular donation projects",
+    "DETAIL": {
+      "AMOUNT": "Donation Amount",
+      "CONTRIBUTORS": "Contributors",
+      "INFLUENCERS": "Participated influencers",
+      "LEFT_DAYS": "Days left",
+      "DAYS": "{count} day(s)"
+    },
+    "FILTER": {
+      "TAG": "Tag",
+      "SOTR": "Sort",
+      "COUNTRY": "Country",
+      "CATEGORY": "Category",
+      "DONATIONS": "Donations",
+      "PROJECT_TYPE": "Project Type",
+      "DONATION_GROUP": "Donation Group",
+      "PLACEHOLDER": "Search with keyword",
+      "PARTICIPATED": "Participated Influencers"
+    },
+    "BUTTON": {
+      "SEARCH": "search",
+      "SEARCH_FILTER": "search filter",
+      "CHECK": "Check Deals",
+      "DONATE": "Donate"
+    }
+  }
+}

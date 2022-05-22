@@ -1,0 +1,24 @@
+<svg
+  data-name="blog"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="100%"
+  height="100%"
+  viewBox="0 0 32 32"
+>
+  <defs>
+    <linearGradient id="linear-gradient-blog" x1="0.132" y1="1.168" x2="0.819" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ef5734" />
+      <stop offset="1" stop-color="#ffcc2f" />
+    </linearGradient>
+  </defs>
+  <circle
+    id="Ellipse_80"
+    data-name="Ellipse 80"
+    cx="16"
+    cy="16"
+    r="16"
+    fill="url(#linear-gradient-blog)"
+  />
+  <path id="Icon_metro-blogger" data-name="Icon metro-blogger" d="M14.73,6.8H14a.9.9,0,0,1-.868-.813,4.08,4.08,0,0,0-4.2-4.063H6.8a4.214,4.214,0,0,0-4.227,4.2v4.606a4.212,4.212,0,0,0,4.227,4.2h4.55a4.206,4.206,0,0,0,4.222-4.2V7.756a.943.943,0,0,0-.84-.953Zm-8.1-1.625H9.071a.813.813,0,0,1,0,1.625H6.633a.813.813,0,1,1,0-1.625Zm4.875,6.5H6.633a.813.813,0,1,1,0-1.625h4.875a.813.813,0,1,1,0,1.625Z" transform="translate(7.429 7.072)" fill="#fff" />
+</svg>

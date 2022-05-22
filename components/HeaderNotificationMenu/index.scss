@@ -1,0 +1,5 @@
+@import '~/assets/scss/line-clamp.scss';
+
+.message-line-clamp {
+  @include line-clamp(3);
+}

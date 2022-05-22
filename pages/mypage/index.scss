@@ -1,0 +1,112 @@
+@import '~/assets/scss/line-clamp.scss';
+
+.v-rating {
+  cursor: wait;
+}
+
+.v-tooltip__content {
+  opacity: 1;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 85%,
+    12% 85%,
+    7% 100%,
+    7% 85%,
+    0px 85%
+  );
+  min-height: 126px;
+  padding: 10px 15px;
+}
+
+@media screen and (max-width: 599.9px) {
+  .v-tooltip__content {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 85%,
+      85% 85%,
+      77% 100%,
+      80% 85%,
+      0px 85%
+    );
+  }
+}
+
+@media screen and (max-width: 352px) {
+  .v-tooltip__content {
+    top: -10px !important;
+    padding-bottom: 35px;
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 85%,
+      75% 85%,
+      77% 98%,
+      65% 85%,
+      0px 85%
+    );
+  }
+}
+
+@media screen and (max-width: 295px) {
+  .v-tooltip__content {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 85%,
+      80% 85%,
+      82% 93%,
+      70% 85%,
+      0px 85%
+    );
+    top: -20px !important;
+  }
+}
+
+@media screen and (min-width: 385px) and (max-width: 599px) {
+  .v-tooltip__content {
+    clip-path: polygon(
+      0% 0%,
+      100% 0%,
+      100% 85%,
+      80% 85%,
+      74% 98%,
+      75% 85%,
+      0px 85%
+    );
+  }
+}
+
+::v-deep {
+  .message-line-clamp {
+    @include line-clamp(3);
+  }
+  .items-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+  }
+
+  @media screen and (max-width: 1023.9px) {
+    svg {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+  }
+
+  @media screen and (max-width: 959.9px) {
+    .items-grid {
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+    }
+  }
+
+  @media screen and (max-width: 423.9px) {
+    .items-grid {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+    }
+  }
+}

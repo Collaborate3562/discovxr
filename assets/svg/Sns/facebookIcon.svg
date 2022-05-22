@@ -1,0 +1,26 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="100%"
+  height="100%"
+  viewBox="0 0 32 32"
+>
+  <defs>
+    <linearGradient id="linear-gradient-facebook" x1="0.132" y1="1.168" x2="0.819" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#045de9" />
+      <stop offset="1" stop-color="#09c6f9" />
+    </linearGradient>
+  </defs>
+  <g id="Facebook_icon" data-name="facebook-icon" transform="translate(-0.062)">
+    <circle
+      id="Ellipse_80"
+      data-name="Ellipse 80"
+      cx="16"
+      cy="16"
+      r="16"
+      transform="translate(0.062)"
+      fill="url(#linear-gradient-facebook)"
+    />
+    <path id="Icon_awesome-facebook-f" data-name="icon-awesome-facebook-f" d="M9.085,8.4,9.5,5.7H6.906V3.945A1.352,1.352,0,0,1,8.43,2.484H9.609V.183A14.38,14.38,0,0,0,7.516,0,3.3,3.3,0,0,0,3.984,3.639V5.7H1.609V8.4H3.984v6.535H6.906V8.4Z" transform="translate(10.38 8.5)" fill="#fff" />
+  </g>
+</svg>

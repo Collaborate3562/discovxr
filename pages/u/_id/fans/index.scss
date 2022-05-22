@@ -1,0 +1,29 @@
+@import '~/assets/scss/line-clamp.scss';
+
+.v-btn {
+  white-space: inherit;
+}
+
+::v-deep {
+  .v-tabs-bar {
+    height: auto;
+  }
+  .v-tabs-slider-wrapper {
+    top: 0;
+  }
+  @media screen and (max-width: 600px) {
+    .v-slide-group {
+      &__prev,
+      &__next {
+        display: none !important;
+      }
+    }
+    .v-tabs-bar__content {
+      flex: inherit;
+    }
+    .v-tab {
+      max-width: 50% !important;
+      min-width: auto;
+    }
+  }
+}

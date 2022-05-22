@@ -1,0 +1,8 @@
+::v-deep {
+  @media screen and (min-width: 960px) and (max-width: 1263.9px) {
+    .v-list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

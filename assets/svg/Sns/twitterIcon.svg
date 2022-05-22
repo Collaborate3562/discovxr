@@ -1,0 +1,27 @@
+<svg
+  id="twitter-icon"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="100%"
+  height="100%"
+  viewBox="0 0 32 32"
+>
+  <defs>
+    <linearGradient id="linear-gradient-twitter" y1="1" x2="0.741" y2="0.3" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0288d1" />
+      <stop offset="1" stop-color="#26c6da" />
+    </linearGradient>
+  </defs>
+  <g id="twitter-icon" data-name="twitter-icon" transform="translate(-0.123)">
+    <circle
+      id="Ellipse_82"
+      data-name="Ellipse 82"
+      cx="16"
+      cy="16"
+      r="16"
+      transform="translate(0.123)"
+      fill="url(#linear-gradient-twitter)"
+    />
+    <path id="Icon_awesome-twitter" data-name="icon-awesome-twitter" d="M13.427,6.41c.009.133.009.266.009.4A8.667,8.667,0,0,1,4.71,15.536,8.668,8.668,0,0,1,0,14.159a6.345,6.345,0,0,0,.741.038,6.143,6.143,0,0,0,3.808-1.31,3.073,3.073,0,0,1-2.868-2.127,3.868,3.868,0,0,0,.579.047,3.244,3.244,0,0,0,.807-.1A3.068,3.068,0,0,1,.608,7.692V7.654a3.089,3.089,0,0,0,1.386.389,3.072,3.072,0,0,1-.95-4.1,8.718,8.718,0,0,0,6.324,3.21,3.462,3.462,0,0,1-.076-.7,3.07,3.07,0,0,1,5.308-2.1,6.039,6.039,0,0,0,1.947-.741A3.059,3.059,0,0,1,13.2,5.3a6.149,6.149,0,0,0,1.766-.475A6.593,6.593,0,0,1,13.427,6.41Z" transform="translate(8.597 6.891)" fill="#fff" />
+  </g>
+</svg>

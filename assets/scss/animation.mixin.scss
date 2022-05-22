@@ -1,0 +1,6 @@
+@mixin _animation($args) {
+  animation: $args;
+  -o-animation: $args;
+  -moz-animation: $args;
+  -webkit-animation: $args;
+}

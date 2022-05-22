@@ -1,0 +1,5 @@
+@import '~/assets/scss/line-clamp.scss';
+
+.comment-line-clamp {
+  @include line-clamp(4);
+}

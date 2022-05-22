@@ -1,0 +1,6 @@
+<svg id="bad" data-name="bad" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 50 50">
+  <circle id="bad" data-name="bad" cx="25" cy="25" r="24" fill="#89CDFF"/>
+  <path id="Path_9" data-name="Path 9" d="M24.485,13.742A1.742,1.742,0,1,1,22.742,12,1.742,1.742,0,0,1,24.485,13.742Z" transform="translate(11.834 4.417)" fill="#fff"/>
+  <path id="Path_10" data-name="Path 10" d="M13.985,13.742A1.742,1.742,0,1,1,12.242,12,1.742,1.742,0,0,1,13.985,13.742Z" transform="translate(3.181 4.417)" fill="#fff"/>
+  <path id="Path_11" data-name="Path 11" d="M27.975,3A25,25,0,1,0,53,28,24.988,24.988,0,0,0,27.975,3ZM28,48A20,20,0,1,1,48,28,19.994,19.994,0,0,1,28,48Zm0-15a13.738,13.738,0,0,0-12.8,8.75h4.175a9.939,9.939,0,0,1,17.25,0H40.8A13.738,13.738,0,0,0,28,33Z" transform="translate(-3 -3)" fill="#fff"/>
+</svg>
